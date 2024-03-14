@@ -1,11 +1,11 @@
-module GATES_TT(a,b,andgate,orgate,notgate,nandgate,norgate,xorgate,xnorgate);
-input a,b;
-output andgate,orgate,notgate,nandgate,norgate,xorgate,xnorgate;
-and(andgate,a,b);
-or(orgate,a,b);
-not(notgate,a);
-nand(nandgate,a,b);
-nor(norgate,a,b);
-xor(xorgate,a,b);
-xnor(xnorgate,a,b);
+module Basic (a, b, y1, y2, y3, y4, y5, y6, y7) ;
+input a, b;
+output yl, y2, y3, y4, y5, у6, y7;
+and (yl, a, b) ;
+or (y2, a, b) ;
+not (y3,a) ;
+xor (y4, a, b) ;
+nor (y5, a, b) ;
+nand (y6, a, b) ;
+nor (y7, a, b) ;
 endmodule
