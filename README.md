@@ -79,8 +79,8 @@ nand (y6, a, b) ;
 nor (y7, a, b) ;
 endmodule
 ```
-## Developed by: Aaron.H
-## RegisterNumber:  212223040001 
+## Developed by: Nithya shree.B
+## RegisterNumber:  212223220071
 
 ## Logic symbol & Truthtable
 ![image](https://github.com/aaron-h-2k5/study-of-basic-gates/assets/144250957/283606c5-fc02-4023-9990-3fdf1324473e)
